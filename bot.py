@@ -7,7 +7,7 @@ import os
 from collections import defaultdict
 
 # Bot configuration
-TOKEN = os.getenv('MTQyMjcwODQ5NjE4MDMxNDIxMg.GO1xgO.-BwIbmCArTM__TWr3MxijPW8X9K6xMp2-fit_A')  # Set this in your environment
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')  # Set this in your environment
 MESSAGE_TRACKING_LIMIT = 10  # Track first 10 messages per user
 AUTO_DELETE_DELAY = 600  # 10 minutes in seconds
 
